@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio personal">
+<title>Mi portafolio</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="encabezado">
+<a class="logo" href="#home">Mi portafolio</a>
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+<nav id="menu" class="navegacion" aria-label="Menú principal">
+<a href="#home">Home</a><a href="#sobre-mi">Sobre mí</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a>
+</nav>
+</header>
+<main>
+<section class="seccion hero" id="home">
+<div><p class="etiqueta">Bienvenido/a</p><h1>A mi pagina</h1><p>Hola, soy Benjamin. Este es mi portafolio personal, donde comparto mis habilidades, servicios y proyectos.</p><a class="boton" href="#proyectos">Ver proyectos</a></div>
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900" alt="Espacio de trabajo con computadora">
+</section>
+<section class="seccion" id="sobre-mi"><p class="etiqueta">Conóceme</p><h2>Sobre mí</h2><div class="dos-columnas"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900" alt="Equipo colaborando"><div><h3>Mi historia</h3><p>Actualmente me encuentro estudiando el cuarto cuatrimestre de mi carrera den la UTEZ.</p><p>Me interesa aprender continuamente, resolver problemas y crear soluciones útiles.</p></div></div></section>
+<section class="seccion suave" id="servicios"><p class="etiqueta">Lo que puedo hacer</p><h2>Servicios</h2><div class="tarjetas">
+<article class="tarjeta"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=900" alt="Diseño de sitio web"><h3>Diseño web</h3><p>Creación de páginas claras, atractivas y adaptables.</p></article>
+<article class="tarjeta"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900" alt="Visualización de datos"><h3>Base de datos</h3><p>Organización de información y administración de datos.</p></article>
+</div></section>
+<section class="seccion" id="proyectos"><p class="etiqueta">Mi trabajo</p><h2>Proyectos</h2><div class="carrusel">
+<article class="proyecto"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900" alt="Panel de análisis"><h3>Proyecto 1</h3><p>Diseño de interfaz web.</p></article>
+<article class="proyecto"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900" alt="Servidores"><h3>Proyecto 2</h3><p>Administración de infraestructura.</p></article>
+<article class="proyecto"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900" alt="Trabajo en computadora"><h3>Proyecto 3</h3><p>Solución tecnológica.</p></article>
+</div><p class="ayuda">Desliza horizontalmente para ver más proyectos.</p></section>
+<section class="seccion suave" id="contacto"><p class="etiqueta">Hablemos</p><h2>Contacto</h2>
+<form id="formulario" class="formulario"><label for="nombre">Nombre</label><input id="nombre" required placeholder="Tu nombre"><label for="correo">Correo electrónico</label><input id="correo" type="email" required placeholder="correo@ejemplo.com"><label for="comentarios">Comentarios</label><textarea id="comentarios" rows="4" required placeholder="Escribe tu mensaje"></textarea><button class="boton" type="submit">Enviar</button><p id="respuesta" role="status" aria-live="polite"></p></form>
+<p>📍 <a href="https://maps.google.com" target="_blank" rel="noopener">Cómo llegar</a></p>
+</section>
+</main>
+<footer class="pie"><p>© 2026 Mi Marca personal</p><div><a href="#">Instagram</a> · <a href="#">Facebook</a></div></footer>
+<script src="js/menu.js"></script>
+</body></html>

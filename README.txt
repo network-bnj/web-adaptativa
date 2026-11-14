@@ -1,0 +1,1 @@
+Abre index.html con Live Server. Personaliza Tu nombre, textos, imágenes y redes. Prueba con F12 > Toggle device toolbar: 390x844 vertical y 844x390 horizontal. El formulario solo muestra una confirmación local; no envía correos.
